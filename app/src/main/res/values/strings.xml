@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Pra Assesment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="persegi_panjang">Persegi Panjang</string>
+    <string name="segitiga_siku_siku">Segitiga Siku-siku</string>
+    <string name="fresya_maharani_sentosa">Fresya Maharani Sentosa</string>
+    <string name="_6706184104">6706184104</string>
+    <string name="d3if_42_04">D3IF_42-04</string>
+    <string name="d3if_42_04_">D3IF-42-04_</string>
+    <string name="hitung_segi_panjang">Hitung Segi Panjang</string>
+    <string name="panjang">Panjang</string>
+    <string name="lebar">Lebar</string>
+    <string name="hitung">Hitung</string>
+    <string name="luas">Luas</string>
+    <string name="keliling">Keliling</string>
+    <string name="tinggi">Tinggi</string>
+    <string name="alas">Alas</string>
+    <string name="hitung_segitiga">Hitung Segitiga</string>
+    <string name="share">Share</string>
+    <string name="share2">Share</string>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.example.android.navigation.PersegiPanjangFragment">
+
+        <!-- TODO: Update blank fragment layout -->
+        <!--<data>-->
+        <!--<variable-->
+        <!--name="persegipanjang"-->
+        <!--type="com.example.android.navigation.PersegiPanjangFragment"-->
+        <!--/>-->
+        <!--</data>-->
+
+
+        <TextView
+                android:text="@string/hitung_segitiga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView" android:layout_marginEnd="179dp" app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="174dp"
+                android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginBottom="628dp" app:layout_constraintBottom_toBottomOf="parent"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="@string/alas"
+                android:ems="10"
+                android:id="@+id/et_alas"
+                app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="100dp"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="98dp"
+                android:layout_marginBottom="569dp" app:layout_constraintBottom_toBottomOf="parent"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="@string/tinggi"
+                android:ems="10"
+                android:id="@+id/et_tinggi"
+                app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/et_alas"
+                android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.051"/>
+        <Button
+                android:text="@string/hitung"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_htg_segitiga" android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/et_tinggi"
+                app:layout_constraintHorizontal_bias="0.498" app:layout_constraintVertical_bias="0.086"/>
+        <TextView
+                android:text="@string/luas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hsl_luas_segitiga" android:layout_marginEnd="8dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                app:layout_constraintHorizontal_bias="0.109" app:layout_constraintTop_toBottomOf="@+id/btn_htg_segitiga"
+                android:layout_marginTop="32dp"/>
+        <TextView
+                android:text="@string/keliling"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/hsl_kll_segitiga" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/hsl_luas_segitiga" android:layout_marginTop="60dp"
+                app:layout_constraintHorizontal_bias="0.092"/>
+        <Button
+                android:text="@string/share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_share" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                android:layout_marginTop="48dp" app:layout_constraintTop_toBottomOf="@+id/hsl_kll_segitiga"
+                app:layout_constraintHorizontal_bias="0.061"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
